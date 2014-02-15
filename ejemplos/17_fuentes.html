@@ -1,0 +1,52 @@
+<!doctype HTML>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Fuentes</title>
+
+		<style type="text/css">
+			.familia-serif {
+			/*Los nombres que se componen de una sola palabra, como Times, pueden escribirse entrecomillados o no*/
+			/*Los nombres que se componen de mas de una palabra deben escribirse entrecomillados o no*/
+				font-family: Times, "Times New Roman", "Georgia","serif";
+			}
+
+			.familia-sans-serif{
+			/*Primero se busca el tipo de letra Vernada, luego Geneva, luego Arial y si no se encuentra ninguna se busca cualquier
+			 otra tipo de letra de la familia sans-serif */
+				font-family: "Verdana", "Geneva", "Arial", "sans-serif";
+			}
+
+			.familia-monospace {
+				font-family: "Courier", "Courier New", "Andale Mono", "monospace";
+			}
+
+			.familia-cursive {
+				font-family: "Comic Sans", "Apple Chancery", "cursive";
+			}
+
+			.familia-fantasy {
+				font-family: "Last Ninja", "Webdings", "Copperplate", "Desdemona", "Kino", "Impact", "fantasy";
+			}
+
+			p {
+				font-size: 40px;
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<h2 class="familia-serif">Tipo de letra: times, familia: serif</h2>
+		<h2 class="familia-sans-serif">Tipo de letra: vernada, familia: sans-serif</h2>
+		<h2 class="familia-monospace">Tipo de letra: courier, familia: monospace</h2>
+		<h2 class="familia-cursive">Tipo de letra: comic sans, familia: cursive</h2>
+		<h2 class="familia-fantasy">Tipo de letra: last ninja, familia: fantasy</h2>
+
+		<p>
+			Párrafo con texto de 40px
+		</p>
+
+	</body>
+</html>

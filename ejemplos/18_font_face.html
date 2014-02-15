@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Font Face</title>
+        
+        <style>
+			/*Esta fuente es externa.
+			 ---------------------------------------------------- */
+			@font-face {
+				font-family: 'marck_script';
+				src: url('../fuentes/marckscript.eot'); /* IE9 Compat Modes */
+				src: url('../fuentes/marckscript.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+				url('../fuentes/marckscript.woff') format('woff'), /* Modern Browsers */
+				url('../fuentes/marckscript.ttf') format('truetype'), /* Safari, Android, iOS */
+				url('../fuentes/marckscript.svg#marck script') format('svg'); /* Legacy iOS */
+			}
+
+			body {
+				font-family: 'marck_script';
+				background-image: url("../imagenes/fondo_escher.jpg");
+			}
+			
+			div{
+			    background-color:#ECF6CB;
+			    padding: 40px;
+			    margin: 70px;
+			}
+			
+		    h1 {
+                color:#333333;
+                text-align: center;
+            }
+            
+            .imagen{
+                width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+			.biografia{
+			    color: #808080;
+			    font-size: 20px;
+			    text-align:justify;
+			    width: 600px;
+			    margin-left: auto;
+                margin-right: auto;
+			}
+
+        </style>
+
+    </head>
+    <body>
+        
+        <div>
+        <h1>Maurits Cornelis Escher</h1>
+        <p class="imagen">
+            <img src="../imagenes/escaleras.jpg" width="400px"/>
+        </p>
+        
+        <p class="biografia">
+            Maurits Cornelis Escher (Leeuwarden, Países Bajos, 15 de junio de 1898 - Hilvanarse, Países Bajos, 
+            27 de marzo de 1972), más conocido como M. C. Escorche fue un artista holandés conocido
+            por sus grabados en madera, xilografías y litografías que tratan sobre figuras imposibles, 
+            teselados y mundos imaginarios.
+            Su obra experimenta con diversos métodos de representar (en dibujos de 2 o 3 dimensiones) 
+            espacios paradójicos que desafían a los modos habituales de representación.        
+        </p>
+        </div>
+    </body>
+</html>

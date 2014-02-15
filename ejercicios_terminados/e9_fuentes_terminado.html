@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio de Fuentes</title>
+        
+        <style>
+			/*Esta fuente es externa.
+			 ---------------------------------------------------- */
+			@font-face {
+				font-family: 'loveya';
+				src: url('../fuentes/loveya.eot'); /* IE9 Compat Modes */
+				src: url('../fuentes/loveya.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+				url('../fuentes/loveya.woff') format('woff'), /* Modern Browsers */
+				url('../fuentes/loveya.ttf') format('truetype'), /* Safari, Android, iOS */
+				url('../fuentes/loveya.svg#love_ya_like_a_sisterregular') format('svg'); /* Legacy iOS */
+			}
+
+			body {
+				font-family: 'loveya';
+				background-image: url("../imagenes/fondo_escher2.jpg");
+				color:white;
+			}
+			
+			div{
+			    opacity: .92;
+			    background-color:#ECF6CB;
+			    padding: 40px;
+			    margin: 70px;
+			    /*esquinas redondas*/
+			    border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -o-border-radius:10px;
+			}
+			
+		    h1 {
+                color:#A2473E;
+                font-size: 60px;
+                text-align: center;
+                /*sombra en el texto*/
+               -webkit-text-shadow: 3px 4px 3px brown;
+                -moz-text-shadow: 3px 4px 3px brown;
+                -o-text-shadow: 3px 4px 3px brown;
+                text-shadow: 3px 4px 3px brown;
+            }
+            
+            .imagen{
+                width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+			.biografia{
+			    
+			    color:#ECF6CB;
+			    background-color:#A2473E;
+			    font-size: 20px;
+			    text-align:justify;
+			    width: 600px;
+			    padding: 20px;
+			    margin-left: auto;
+                margin-right: auto;
+                /*esquinas redondas*/
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -o-border-radius:20px;
+                /*sombras en la caja*/
+                box-shadow: 0px 0px 5px 5px brown;
+                -webkit-box-shadow: 0px 0px 5px 5px brown;
+                -moz-box-shadow: 0px 0px 5px 5px brown;
+                -o-box-shadow: 0px 0px 5px 5px brown;
+			}
+
+        </style>
+
+    </head>
+    <body>
+        
+        <div>
+        <h1>Cinta de Möbius</h1>
+        <p class="imagen">
+            <img src="../imagenes/banda_mobius.jpg" width="400px"/>
+        </p>
+        
+        <p class="biografia">
+            La banda o cinta de Möbius (/ˈmøbiʊs/) o Moebius (/moˈebius/) 
+            es una superficie con una sola cara y un solo borde. 
+            Tiene la propiedad matemática de ser un objeto no orientable. 
+            También es una superficie reglada. Fue descubierta en forma 
+            independiente por los matemáticos alemanes August Ferdinand Möbius 
+            y Johann Benedict Listing en 1858.        
+        </p>
+        </div>
+    </body>
+</html>
