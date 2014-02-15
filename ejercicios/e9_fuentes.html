@@ -5,10 +5,29 @@
         <title>Ejercicio de Fuentes</title>
         
         <style>
+        @font-face {
+				font-family: 'loveya';
+				src: url('../fuentes/loveya.eot'); /* IE9 Compat Modes */
+				src: url('../fuentes/loveya.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+				url('../fuentes/loveya.woff') format('woff'), /* Modern Browsers */
+				url('../fuentes/loveya.ttf') format('truetype'), /* Safari, Android, iOS */
+				url('../fuentes/loveya.svg#love_ya_like_a_sisterregular') format('svg'); /* Legacy iOS */
+			}
+			body{
+				font-family: 'loveya';
+				background-image: url("../imagenes/fondo_escher.jpg");
+				color: white;
+			}
 			div{
+				opacity: .92;
 			    background-color:#ECF6CB;
 			    padding: 40px;
 			    margin: 70px;
+			    /*esquinas redondas*/
+			    border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -o-border-radius:10px;
 			}
 			
 		    h1 {

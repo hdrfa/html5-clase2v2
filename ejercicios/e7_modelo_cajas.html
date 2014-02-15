@@ -3,15 +3,40 @@
     <head>
         <meta charset="UTF-8" />
         <title>Ejercicio 7</title>
+        <style type="text/css">        
+        	body{
+        		
+           		background-color: white;
+        	}
+        	header{
+        		background-color:#61b7cf;
+          	}
+          	#seccion-contenido{
+          		background-image: url ("../imagenes/fondo_granulado.jpg");
+          		padding: 20px;
+          		margin: 30px;
+          	}
+          	.parrafo-presentacion{
+          		color: #ECF6CB;
+          		background-color: #8D3656;
+          		width: 600px;
+          		padding: 40px;
+          		margin-left: 50px;
+          		margin-bottom: 20px;
+          	}
+          	footer{
+          		background-color: #5ec4cd;
+				color: #015c65;
+          	}
+        </style>
     </head>
-
     <body>
         <header>            
             <h1> Lenguaje de Programación</h1>
         </header>
         <!-- Sección de Contenido -->
-        <section>
-            <p>
+        <section id="seccion-contenido">
+            <p class="parrafo-presentacion">
                 Un lenguaje de programación es un lenguaje formal diseñado para expresar procesos 
                 que pueden ser llevados a cabo por máquinas como las computadoras.
                 Pueden usarse para crear programas que controlen el comportamiento físico y lógico 
@@ -21,14 +46,14 @@
                 Al proceso por el cual se escribe, se prueba, se depura, se compila (de ser necesario) 
                 y se mantiene el código fuente de un programa informático se le llama programación.
             </p>
-            <p>
+            <p class="parrafo-presentacion">
                 Existe un error común que trata por sinónimos los términos 'lenguaje de programación' 
                 y 'lenguaje informático'. Los lenguajes informáticos engloban a los lenguajes de programación
                 y a otros más, como por ejemplo HTML (lenguaje para el marcado de páginas web 
                 que no es propiamente un lenguaje de programación, sino un conjunto de instrucciones 
                 que permiten diseñar el contenido de los documentos).
             </p>
-            <p>
+            <p class="parrafo-presentacion">
                 Para que la computadora entienda nuestras instrucciones debe usarse un lenguaje específico 
                 conocido como código máquina, el cual la máquina comprende fácilmente, pero que lo hace 
                 excesivamente complicado para las personas. De hecho sólo consiste en cadenas extensas de números 0 y 1.
